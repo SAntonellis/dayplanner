@@ -1,3 +1,8 @@
-document.getElementById(".hour").innerHTML = "Bonjour";
-document.getElementById(".scheduleinput").innerHTML = "Schedule";
-document.getElementById(".save-btn").innerHTML = "save";
+//declared variables linked to html display//
+var hour = document.querySelector("#hour");
+var scheduleinput = document.querySelector("#scheduleInput");
+var savebtn = document.querySelector("#saveBtn");
+
+
+
+console.log("test")
